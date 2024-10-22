@@ -1,0 +1,26 @@
+.kanban-card {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  background-color: #fff; /* White background for cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card-id {
+  font-size: 10px; /* Smaller size for ID */
+  color: #888; /* Gray color for ID */
+}
+
+.card-tag {
+  font-size: 10px; /* Smaller size for tags */
+  margin-top: 5px; /* Space above the tag */
+}
+
+h3 {
+  font-size: 12px; /* Smaller size for title */
+  margin: 5px 0; /* Margin for spacing */
+}

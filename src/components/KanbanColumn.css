@@ -1,0 +1,31 @@
+.kanban-column {
+  padding: 10px;
+  background-color: transparent; /* Ensure the column itself is transparent */
+  margin: 10px;
+  box-shadow: none; /* Remove shadow to blend in */
+}
+
+.column-header {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  gap: 5px; /* Space between the icon and title */
+  font-weight: bold;
+  font-size: 12px; /* Smaller size for column header */
+}
+
+.column-header h2 {
+  font-size: 12px; /* Ensure the heading is smaller */
+  margin: 0; /* Remove default margin */
+  flex-grow: 1; /* Take up remaining space to push action icons to the right */
+}
+
+.column-actions {
+  display: flex; /* Arrange icons in a row */
+  gap: 5px; /* Space between icons */
+}
+
+.action-icon {
+  width: 16px; /* Adjust icon size */
+  height: 16px; /* Adjust icon size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}

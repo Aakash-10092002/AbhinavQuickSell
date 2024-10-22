@@ -1,0 +1,15 @@
+.kanban-board {
+  padding: 20px;
+}
+
+.columns-container {
+  display: flex; /* Arrange columns in a row */
+  overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+.kanban-column {
+  flex: 1; /* Make each column equal width */
+  margin: 10px; /* Space between columns */
+   /* Make the background of the column transparent */
+  /* Remove borders to blend with the background */
+}
